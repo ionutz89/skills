@@ -4,7 +4,7 @@
     "description": "Official Tavily plugin for Claude Code - web search, research, and crawling capabilities",
     "version": "1.0.0"
   },
-  "name": "tavily-plugins",
+  "name": "tavily-skills",
   "owner": {
     "email": "dean.sacoransky@tavily.com",
     "name": "Tavily"
