@@ -1,29 +1,44 @@
 {
-  "name": "tavily-plugins",
-  "owner": {
-    "name": "Tavily",
-    "email": "dean.sacoransky@tavily.com"
-  },
-  "metadata": {
-    "description": "Official Tavily plugin for Claude Code - web search, research, and crawling capabilities",
-    "version": "1.0.0"
-  },
-  "plugins": [
-    {
-      "name": "tavily",
-      "source": "./",
-      "description": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Tavily Team",
-        "email": "dean.sacoransky@tavily.com"
-      },
-      "homepage": "https://github.com/tavily-ai/skills",
-      "repository": "https://github.com/tavily-ai/skills",
-      "license": "MIT",
-      "keywords": ["search", "web-search", "rag", "agents", "llm", "research", "crawl", "extract"],
-      "category": "external-integrations",
-      "tags": ["web-search", "data-retrieval", "agents", "rag", "research"]
-    }
-  ]
+    "metadata": {
+        "description": "Official Tavily plugin for Claude Code - web search, research, and crawling capabilities",
+        "version": "1.0.0"
+    },
+    "name": "tavily-plugins",
+    "owner": {
+        "email": "dean.sacoransky@tavily.com",
+        "name": "Tavily"
+    },
+    "plugins": [
+        {
+            "author": {
+                "email": "dean.sacoransky@tavily.com",
+                "name": "Tavily Team"
+            },
+            "category": "external-integrations",
+            "description": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
+            "homepage": "https://github.com/tavily-ai/skills",
+            "keywords": [
+                "search",
+                "web-search",
+                "rag",
+                "agents",
+                "llm",
+                "research",
+                "crawl",
+                "extract"
+            ],
+            "license": "MIT",
+            "name": "tavily",
+            "repository": "https://github.com/tavily-ai/skills",
+            "source": "./plugins/tavily",
+            "tags": [
+                "web-search",
+                "data-retrieval",
+                "agents",
+                "rag",
+                "research"
+            ],
+            "version": "1.0.0"
+        }
+    ]
 }

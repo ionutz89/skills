@@ -1,0 +1,24 @@
+{
+    "author": {
+        "email": "dean.sacoransky@tavily.com",
+        "name": "Tavily Team",
+        "url": "https://www.tavily.com/"
+    },
+    "description": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
+    "homepage": "https://docs.tavily.com",
+    "keywords": [
+        "search",
+        "web-search",
+        "rag",
+        "agents",
+        "llm",
+        "research",
+        "crawl",
+        "extract"
+    ],
+    "license": "MIT",
+    "name": "tavily",
+    "repository": "https://github.com/tavily-ai/skills",
+    "skills": "./skills/",
+    "version": "1.0.0"
+}
