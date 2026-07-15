@@ -1,44 +1,48 @@
 {
-    "metadata": {
-        "description": "Official Tavily plugin for Claude Code - web search, research, and crawling capabilities",
-        "version": "1.0.0"
-    },
-    "name": "tavily-plugins",
-    "owner": {
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "metadata": {
+    "description": "Official Tavily plugin for Claude Code - web search, research, and crawling capabilities",
+    "version": "1.0.0"
+  },
+  "name": "tavily-plugins",
+  "owner": {
+    "email": "dean.sacoransky@tavily.com",
+    "name": "Tavily"
+  },
+  "plugins": [
+    {
+      "author": {
         "email": "dean.sacoransky@tavily.com",
-        "name": "Tavily"
-    },
-    "plugins": [
-        {
-            "author": {
-                "email": "dean.sacoransky@tavily.com",
-                "name": "Tavily Team"
-            },
-            "category": "external-integrations",
-            "description": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
-            "homepage": "https://github.com/tavily-ai/skills",
-            "keywords": [
-                "search",
-                "web-search",
-                "rag",
-                "agents",
-                "llm",
-                "research",
-                "crawl",
-                "extract"
-            ],
-            "license": "MIT",
-            "name": "tavily",
-            "repository": "https://github.com/tavily-ai/skills",
-            "source": "./plugins/tavily",
-            "tags": [
-                "web-search",
-                "data-retrieval",
-                "agents",
-                "rag",
-                "research"
-            ],
-            "version": "1.0.0"
-        }
-    ]
+        "name": "Tavily Team"
+      },
+      "category": "external-integrations",
+      "description": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
+      "homepage": "https://github.com/tavily-ai/skills",
+      "keywords": [
+        "search",
+        "web-search",
+        "rag",
+        "agents",
+        "llm",
+        "research",
+        "crawl",
+        "extract"
+      ],
+      "license": "MIT",
+      "name": "tavily",
+      "repository": "https://github.com/tavily-ai/skills",
+      "source": {
+        "source": "github",
+        "repo": "ionutz89/skills"
+      },
+      "tags": [
+        "web-search",
+        "data-retrieval",
+        "agents",
+        "rag",
+        "research"
+      ],
+      "version": "1.0.0"
+    }
+  ]
 }
